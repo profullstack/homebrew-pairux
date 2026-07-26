@@ -1,14 +1,14 @@
 cask "pairux" do
-  version "0.9.40"
+  version "0.9.41"
 
   on_arm do
-    sha256 "a63b96f754efc86b592b249aefcd007b5999f497f71201ebf499765126cbcdf9"
+    sha256 "d9f6b1e766093f90369b3213b900af0ed9e6fe071b0890cf43f1acd775ab9c6f"
     url "https://github.com/profullstack/pairux.com/releases/download/v#{version}/PairUX-#{version}-arm64.dmg",
         verified: "github.com/profullstack/pairux.com/"
   end
 
   on_intel do
-    sha256 "b7ca1a995e25585aa5a33b4ea7ccf75441e3340c1b1018009af0436dcfabb325"
+    sha256 "097c956bcb2ebde7f674a1094ad235f45ba6f72300a3475d44a9e2bd6b624286"
     url "https://github.com/profullstack/pairux.com/releases/download/v#{version}/PairUX-#{version}-x64.dmg",
         verified: "github.com/profullstack/pairux.com/"
   end
